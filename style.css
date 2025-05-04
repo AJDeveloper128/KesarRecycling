@@ -1,0 +1,203 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #2d6a4f;
+    color: white;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+nav {
+    background: #40916c;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 2em;
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    margin-top: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #1b4332;
+}
+
+ul {
+    padding-left: 1.5em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    padding: 0.75em;
+    margin-top: 0.3em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 1.5em;
+    padding: 0.8em;
+    background-color: #2d6a4f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #1b4332;
+}
+
+footer {
+    background: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 1.2em 0;
+    margin-top: 2em;
+    font-size: 0.9em;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+.banner-header {
+    background-image: url('RBanner.png');
+    /* your PNG banner */
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    /* Increase height to fit more image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.banner-overlay {
+    background: rgba(0, 102, 0, 0.7);
+    /* slightly transparent for better readability */
+    padding: 2em 3em;
+    border-radius: 12px;
+    max-width: 90%;
+}
+
+.materials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.material-box {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.material-box img {
+    width: 100%;
+    height: 160px;
+    /* Adjust this height as needed */
+    object-fit: cover;
+    border-radius: 6px;
+    margin-bottom: 1em;
+}
+
+
+.material-box h3 {
+    margin: 0.5em 0 0.3em;
+    color: #2d6a4f;
+}
+
+.material-box p {
+    font-size: 0.95em;
+    color: #333;
+}
+
+.owner-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+}
+
+.owner-photo {
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.owner-bio {
+    flex: 1;
+    font-size: 1em;
+    color: #333;
+}
+
+.certificate {
+    margin-top: 2em;
+    text-align: center;
+}
+
+.certificate img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background: #40916c;
+    padding: 1em;
+    text-align: center;
+    flex-wrap: wrap;
+}
